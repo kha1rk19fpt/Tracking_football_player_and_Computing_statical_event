@@ -1,0 +1,15 @@
+# Dataset 4 lớp cho giai đoạn 1 (Roboflow football-players-detection-3zvbc).
+# Sau khi tải bằng scripts/download_data.py, Roboflow tự sinh data.yaml với path tuyệt đối;
+# file này là bản tham chiếu/để chỉnh tay nếu cần.
+
+path: ../datasets/football-players-detection-1  # đổi theo nơi tải về
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names:
+  0: ball
+  1: goalkeeper
+  2: player
+  3: referee

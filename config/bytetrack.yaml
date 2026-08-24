@@ -1,0 +1,7 @@
+tracker_type: bytetrack
+track_high_thresh: 0.25   # ngưỡng khớp vòng 1 (hạ nhẹ vì cầu thủ xa nhỏ)
+track_low_thresh: 0.10
+new_track_thresh: 0.40    # cần chắc hơn mới mở ID mới -> đỡ sinh ID rác
+track_buffer: 60          # giữ track "mất tạm" ~60 frame (occlusion cơ bản)
+match_thresh: 0.80
+fuse_score: true
