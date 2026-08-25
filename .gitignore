@@ -218,8 +218,10 @@ __marimo__/
 .streamlit/secrets.toml
 
 #add
+baseline_paper/
 datasets/
 runs/
 output/
 input/
+secrets_config.py
 *.pt
